@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: PPI - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/PPI.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPI.rc"" 
+Creating temporary file "C:\Users\Asad\AppData\Local\Temp\RSP7954.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PPI.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\MainFrm.cpp"
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPI.cpp"
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIDoc.cpp"
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp"
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\SplitterDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Asad\AppData\Local\Temp\RSP7954.tmp" 
+Creating temporary file "C:\Users\Asad\AppData\Local\Temp\RSP7965.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/PPI.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\Asad\AppData\Local\Temp\RSP7965.tmp" 
+Creating temporary file "C:\Users\Asad\AppData\Local\Temp\RSP7966.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/PPI.pdb" /machine:I386 /out:"Release/PPI.exe" 
+".\Release\MainFrm.obj"
+".\Release\PPI.obj"
+".\Release\PPIDoc.obj"
+".\Release\PPIView.obj"
+".\Release\SplitterDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\PPI.res"
+]
+Creating command line "link.exe @C:\Users\Asad\AppData\Local\Temp\RSP7966.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+PPI.cpp
+PPIDoc.cpp
+PPIView.cpp
+C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp(23) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp(529) : warning C4101: 'check' : unreferenced local variable
+C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp(959) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp(1220) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Asad\Desktop\Protein Protein Interaction Code and EXE 2008\PPIView.cpp(1372) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+SplitterDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+PPI.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
